@@ -1,77 +1,82 @@
-# Sito Personale di Giuseppe Cuomo
+# 🌐 Sito Personale di Giuseppe Cuomo
 
-Benvenuti nel repository ufficiale del sito web personale di **Giuseppe Cuomo**, autore, ricercatore e comunicatore culturale.
+Benvenuti nel repository del sito web personale di **Giuseppe Cuomo**: autore, ricercatore, divulgatore.
 
-Questo sito raccoglie informazioni sui suoi progetti editoriali, romanzi, pubblicazioni scientifiche e contenuti di divulgazione.
-
----
-
-## 🔗 Sezioni principali del sito
-
-### 🏠 Home (`index.html`)
-- Introduzione generale
-- Navigazione ai romanzi
-- Accesso alla sezione **Pubblicazioni Scientifiche**
-
-### 📚 Romanzi
-- **Il Macello Maledetto** (`macello.html`)
-  - Romanzo horror psicologico-sociale
-  - Temi: alienazione, disumanizzazione, malattia mentale
-  - Pulsante per link alla **campagna di pubblicazione**
-- **Altro romanzo** (pagina dedicata in sviluppo o già implementata)
-
-### 📖 Pubblicazioni Scientifiche (`pubblicazioni.html`)
-- Sezione dedicata alle pubblicazioni accademiche
-- Layout coerente e professionale
-- Estratti bibliografici da PDF:
-  - **"Metodologie molecolari per il monitoraggio ed il controllo di biofilm"**
-  - **"Procedura COD"**
-- Ogni pubblicazione presenta:
-  - Titolo
-  - Autori
-  - Descrizione
-  - Link diretto al PDF
-- Pulsante per tornare alla Home
+Questo progetto raccoglie:
+- Opere letterarie
+- Pubblicazioni scientifiche
+- Informazioni biografiche e professionali
 
 ---
 
-## 📁 Struttura dei file
+## 📁 Struttura del progetto
 
-├── index.html
-├── macello.html
-├── pubblicazioni.html
+```
+.
+├── index.html                    # Home Page
+├── macello.html                 # Pagina del romanzo "Il Macello Maledetto"
+├── pubblicazioni.html           # Elenco pubblicazioni scientifiche
 ├── Contributo Volume di Istituto DI PIPPO ET AL.pdf
 ├── procedura cod.pdf
-├── styles/ (se presente)
-└── README.md
+├── README.md                    # Questo file
+```
+
+---
+
+## 🏠 Home (`index.html`)
+
+- Presentazione personale
+- Link alle sezioni "Romanzi" e "Pubblicazioni Scientifiche"
+
+---
+
+## 📚 Romanzi
+
+### 📘 Il Macello Maledetto (`macello.html`)
+- Romanzo horror psicologico-sociale
+- Temi: sfruttamento, alienazione, malattia mentale
+- Pulsante verso la **campagna di pubblicazione**
+
+---
+
+## 📖 Pubblicazioni Scientifiche (`pubblicazioni.html`)
+
+- Layout coerente e professionale
+- Pubblicazioni estratte da:
+  - `Contributo Volume di Istituto DI PIPPO ET AL.pdf`
+  - `procedura cod.pdf`
+- Ogni voce include:
+  - Autori
+  - Titolo
+  - Rivista / Volume
+  - Link diretto al PDF
+- Pulsante per tornare alla Home
 
 ---
 
 ## 🚀 Deployment su GitHub Pages
 
 1. Crea una repository su GitHub
-2. Carica tutti i file del progetto
+2. Carica i file HTML, PDF e questo `README.md`
 3. Vai su **Settings > Pages**
-4. Seleziona branch `main` o `master` e root folder `/`
-5. Visualizza il sito su `https://tuo-username.github.io/nome-repo`
+4. Seleziona `branch: main` e `folder: /root`
+5. Visualizza il sito su:
+   ```
+   https://<tuo-username>.github.io/<nome-repo>/
+   ```
 
 ---
 
 ## 📬 Contatti
 
-Per collaborazioni, proposte editoriali o richieste: **[aggiungere email o form contatti nel sito]**
+Per collaborazioni o info: *[inserire email o modulo contatti]*
 
 ---
 
-## 📌 Stato del progetto
+## ✅ Stato del progetto
 
-✅ Impaginazione coerente  
-✅ Layout responsive con Tailwind  
-✅ Collegamenti interni funzionanti  
-✅ Integrazione pubblicazioni scientifiche  
-✅ Pronto per pubblicazione su GitHub Pages
-
----
-
-
-
+- [x] Home collegata ai contenuti
+- [x] Pagina romanzo con link a campagna
+- [x] Pagina pubblicazioni formattata
+- [x] Collegamenti interni funzionanti
+- [x] Pronto per GitHub Pages
