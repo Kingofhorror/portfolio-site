@@ -1,47 +1,77 @@
-# Portfolio di Giuseppe Cuomo
+# Sito Personale di Giuseppe Cuomo
 
-Benvenuti nel sito personale di Giuseppe Cuomo, chimico industriale, ricercatore, docente e autore. Questo sito nasce con l’intento di promuovere, senza scopo di lucro, la cultura, la narrativa e la scienza in un’epoca sempre più dominata da superficialità e contenuti effimeri.
+Benvenuti nel repository ufficiale del sito web personale di **Giuseppe Cuomo**, autore, ricercatore e comunicatore culturale.
 
-## 📚 Sezioni del sito
-
-- **Home Page**  
-  Introduzione al progetto, motivazioni personali e biografia.
-
-- **Romanzi**
-  - [Il Macello Maledetto](./macello.html)  
-    Romanzo horror psicologico e sociale, con link alla [campagna di pubblicazione](https://bookabook.it/libro/il-macello-maledetto/).
-  - [Consonno – Il Regno del Silenzio](./consonno.html)  
-    Romanzo visionario ambientato nel borgo fantasma lombardo di Consonno.
-
-- **Pubblicazioni Scientifiche**  
-  Elenco di contributi scientifici pubblicati, tratti dall’esperienza accademica e industriale dell’autore.
-
-## 🚀 Come visualizzare il sito
-
-1. Clona o scarica il repository.
-2. Apri `index.html` con qualsiasi browser moderno.
-3. Oppure, pubblica direttamente tramite GitHub Pages:
-   - Vai nelle impostazioni del repository.
-   - Seleziona “Pages” → Sorgente → Branch `main`, cartella `/root`.
-   - Il sito sarà disponibile all’indirizzo `https://<tuo-username>.github.io/<nome-repo>/`.
-
-## 📂 Contenuto del repository
-
-- `index.html` — Homepage
-- `macello.html` — Pagina del romanzo *Il Macello Maledetto*
-- `consonno.html` — Pagina del romanzo *Consonno*
-- `pubblicazioni.html` — Pagina delle pubblicazioni scientifiche
-- `style.css` *(se presente)* — Stili personalizzati
-- Immagini e risorse multimediali
-
-## ✒️ Autore
-
-Giuseppe Cuomo  
-Chimico industriale, docente e scrittore.  
-Appassionato di scienza, narrativa, società, sport e musica.
+Questo sito raccoglie informazioni sui suoi progetti editoriali, romanzi, pubblicazioni scientifiche e contenuti di divulgazione.
 
 ---
 
-> “Diffondere cultura è un atto di resistenza.”  
-> *Giuseppe Cuomo*
+## 🔗 Sezioni principali del sito
+
+### 🏠 Home (`index.html`)
+- Introduzione generale
+- Navigazione ai romanzi
+- Accesso alla sezione **Pubblicazioni Scientifiche**
+
+### 📚 Romanzi
+- **Il Macello Maledetto** (`macello.html`)
+  - Romanzo horror psicologico-sociale
+  - Temi: alienazione, disumanizzazione, malattia mentale
+  - Pulsante per link alla **campagna di pubblicazione**
+- **Altro romanzo** (pagina dedicata in sviluppo o già implementata)
+
+### 📖 Pubblicazioni Scientifiche (`pubblicazioni.html`)
+- Sezione dedicata alle pubblicazioni accademiche
+- Layout coerente e professionale
+- Estratti bibliografici da PDF:
+  - **"Metodologie molecolari per il monitoraggio ed il controllo di biofilm"**
+  - **"Procedura COD"**
+- Ogni pubblicazione presenta:
+  - Titolo
+  - Autori
+  - Descrizione
+  - Link diretto al PDF
+- Pulsante per tornare alla Home
+
+---
+
+## 📁 Struttura dei file
+
+├── index.html
+├── macello.html
+├── pubblicazioni.html
+├── Contributo Volume di Istituto DI PIPPO ET AL.pdf
+├── procedura cod.pdf
+├── styles/ (se presente)
+└── README.md
+
+---
+
+## 🚀 Deployment su GitHub Pages
+
+1. Crea una repository su GitHub
+2. Carica tutti i file del progetto
+3. Vai su **Settings > Pages**
+4. Seleziona branch `main` o `master` e root folder `/`
+5. Visualizza il sito su `https://tuo-username.github.io/nome-repo`
+
+---
+
+## 📬 Contatti
+
+Per collaborazioni, proposte editoriali o richieste: **[aggiungere email o form contatti nel sito]**
+
+---
+
+## 📌 Stato del progetto
+
+✅ Impaginazione coerente  
+✅ Layout responsive con Tailwind  
+✅ Collegamenti interni funzionanti  
+✅ Integrazione pubblicazioni scientifiche  
+✅ Pronto per pubblicazione su GitHub Pages
+
+---
+
+
 
