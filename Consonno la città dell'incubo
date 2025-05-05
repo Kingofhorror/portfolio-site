@@ -36,7 +36,6 @@
 
         <h3 class="text-2xl font-semibold mt-8 mb-4">Ricevi il manoscritto completo</h3>
         <form action="https://formspree.io/f/mvgagjne" method="POST" class="space-y-6">
-          <input type="hidden" name="_redirect" value="/conferma.html">
           <input type="email" name="email" placeholder="Inserisci il tuo indirizzo email" required class="w-full p-3 rounded-xl border border-gray-300">
           <button type="submit" class="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-xl">Richiedi il Manoscritto</button>
         </form>
