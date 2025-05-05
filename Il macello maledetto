@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Il Macello Maledetto</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    body { font-family: 'Open Sans', sans-serif; background-color: #fef9f6; }
+  </style>
+</head>
+<body class="text-gray-800">
+  <header class="p-8 text-center bg-red-100">
+    <h1 class="text-4xl font-bold mb-2">Il Macello Maledetto</h1>
+    <p class="text-lg italic">Romanzo horror psicologico e sociale</p>
+  </header>
+  <main class="p-8 max-w-4xl mx-auto">
+    <p class="mb-4">In un remoto villaggio montano, un ex-macello riapre sotto nuova gestione, promettendo occupazione e benessere. Ma ciò che si cela dietro i suoi cancelli va oltre l’orrore tangibile: è un viaggio nei recessi più oscuri dell’animo umano. Giuseppe Cuomo intreccia simbolismi sociali e pulsioni ancestrali in un racconto inquietante e carico di denuncia.</p>
+    <p class="mb-4">Temi trattati: sfruttamento lavorativo, disumanizzazione, malattia mentale, alienazione sociale.</p>
+    <p class="mb-4">Genere: Horror psicologico, narrativa sociale</p>
+
+    <div class="my-8 text-center">
+      <a href="https://link-alla-campagna.it" target="_blank" class="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-6 rounded-xl shadow-lg transition duration-300">
+        Scopri la Campagna di Pubblicazione
+      </a>
+    </div>
+
+    <a href="index.html" class="text-blue-600 underline">← Torna alla Home</a>
+  </main>
+</body>
+</html>
