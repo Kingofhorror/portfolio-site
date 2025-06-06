@@ -6,29 +6,38 @@
   <title>Giuseppe Cuomo - Home</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet">
   <style>
-    body { font-family: 'Open Sans', sans-serif; background-color: #fef9f6; }
+    body {
+      font-family: 'Open Sans', sans-serif;
+      background-image: url('https://images.unsplash.com/photo-1611721712163-7fc2c5b3db37?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+    .bg-overlay {
+      background-color: rgba(0, 0, 0, 0.7);
+    }
   </style>
 </head>
-<body class="text-gray-800">
-  <header class="p-8 text-center bg-yellow-100">
+<body class="text-gray-100">
+  <header class="p-8 text-center bg-overlay">
     <h1 class="text-4xl font-bold mb-2">Giuseppe Cuomo</h1>
     <p class="text-lg italic">Autore · Ricercatore · Divulgatore</p>
   </header>
 
-  <main class="p-8 max-w-4xl mx-auto">
+  <main class="p-8 max-w-4xl mx-auto bg-overlay rounded-xl mt-6">
     <section class="mb-12">
       <h2 class="text-2xl font-semibold mb-4">Chi sono</h2>
-      <p class="text-gray-700 text-lg">
+      <p class="text-gray-200 text-lg">
         Giuseppe Cuomo è un chimico industriale con una solida esperienza nella ricerca, nell’insegnamento e nel controllo qualità. Laureato presso l’Università degli Studi di Napoli Federico II, ha lavorato in istituti di ricerca come il CNR e l’ENEA, specializzandosi in bioremediation, OLED e processi chimici avanzati. Ha svolto incarichi nel settore industriale, ricoprendo ruoli in aziende di controllo qualità e impianti produttivi, fino a dedicarsi all’insegnamento come professore di chimica analitica e tecnologie chimiche.
       </p>
-      <p class="text-gray-700 text-lg mt-4">
+      <p class="text-gray-200 text-lg mt-4">
         La sua passione per la scienza si unisce a un forte interesse per la divulgazione e la narrativa. Oltre alla chimica, ama la scrittura, i videogiochi, il calcio, la pallavolo e la musica. Il suo legame con la cucina e l’interesse per la società lo hanno spinto a sviluppare una visione del mondo basata sulla cooperazione e sull’ideale socialista, temi che emergono anche nei suoi romanzi, dove scienza, orrore e riflessione sociale si intrecciano in storie avvincenti e visionarie.
       </p>
     </section>
 
     <section class="mb-12">
       <h2 class="text-2xl font-semibold mb-4">Perché questo sito</h2>
-      <p class="text-gray-700 text-lg">
+      <p class="text-gray-200 text-lg">
         Questo sito nasce dall’esigenza di promuovere in modo indipendente e senza alcuno scopo di lucro le mie opere, scientifiche e narrative, nella convinzione che la cultura debba tornare a essere un bene accessibile e diffuso. In un mondo sempre più dominato da superficialità e contenuti effimeri, desidero offrire un’alternativa che unisca rigore, riflessione e immaginazione. Se siete appassionati di scienza, letteratura e idee forti, questo spazio è pensato per voi.
       </p>
     </section>
@@ -36,13 +45,13 @@
     <section class="mb-12">
       <h2 class="text-2xl font-semibold mb-4">Romanzi</h2>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <a href="macello.html" class="block p-6 bg-white rounded-2xl shadow hover:shadow-lg transition">
-          <h3 class="text-xl font-bold mb-2">Il Macello Maledetto</h3>
-          <p class="text-gray-700">Romanzo horror psicologico e sociale ambientato in un villaggio remoto.</p>
+        <a href="macello.html" class="block p-6 bg-gray-800 rounded-2xl shadow hover:shadow-lg transition">
+          <h3 class="text-xl font-bold mb-2 text-white">Il Macello Maledetto</h3>
+          <p class="text-gray-300">Romanzo horror psicologico e sociale ambientato in un villaggio remoto.</p>
         </a>
-        <a href="consonno.html" class="block p-6 bg-white rounded-2xl shadow hover:shadow-lg transition">
-          <h3 class="text-xl font-bold mb-2">Consonno la città dell'incubo</h3>
-          <p class="text-gray-700">Un viaggio nel tempo e nella memoria in una città fantasma piena di misteri.</p>
+        <a href="consonno.html" class="block p-6 bg-gray-800 rounded-2xl shadow hover:shadow-lg transition">
+          <h3 class="text-xl font-bold mb-2 text-white">Consonno la città dell'incubo</h3>
+          <p class="text-gray-300">Un viaggio nel tempo e nella memoria in una città fantasma piena di misteri.</p>
         </a>
       </div>
     </section>
