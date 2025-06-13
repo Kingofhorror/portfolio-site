@@ -6,31 +6,60 @@
   <title>Il Macello Maledetto</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet">
   <style>
-    body { font-family: 'Open Sans', sans-serif; background-color: #fef9f6; }
+    body { font-family: 'Open Sans', sans-serif; background-color: #f8f9fa; }
   </style>
 </head>
 <body class="text-gray-800">
-  <header class="p-8 text-center bg-red-100">
-    <h1 class="text-4xl font-bold mb-2">Il Macello Maledetto</h1>
-    <p class="text-lg italic">Romanzo horror psicologico e sociale</p>
+  <header class="bg-red-100 p-8 text-center">
+    <h1 class="text-4xl font-bold">Il Macello Maledetto</h1>
+    <p class="italic text-lg mt-2">Romanzo horror psicologico e sociale</p>
   </header>
-  <main class="p-8 max-w-4xl mx-auto">
-    <p class="mb-4">In un remoto villaggio montano, un ex-macello riapre sotto nuova gestione, promettendo occupazione e benessere. Ma ciò che si cela dietro i suoi cancelli va oltre l’orrore tangibile: è un viaggio nei recessi più oscuri dell’animo umano. Giuseppe Cuomo intreccia simbolismi sociali e pulsioni ancestrali in un racconto inquietante e carico di denuncia.</p>
-    <p class="mb-4">Temi trattati: sfruttamento lavorativo, disumanizzazione, malattia mentale, alienazione sociale.</p>
-    <p class="mb-4">Genere: Horror psicologico, narrativa sociale</p>
 
-    <img src="copertinahorror.png" alt="Copertina Il Macello Maledetto" class="w-full max-w-md mx-auto rounded shadow-lg mb-6">
+  <main class="max-w-4xl mx-auto p-8 space-y-6">
+    <img src="copertinahorror.png" alt="Copertina Il Macello Maledetto" class="mx-auto rounded shadow-lg w-full max-w-sm">
 
-    <div class="my-8 text-center">
-      <p class="mb-2">Versa 2,99€ tramite PayPal. Dopo il pagamento torna manualmente a questa pagina per accedere al download.</p>
-      <a href="https://paypal.me/Cuomo533/2.99" target="_blank" class="inline-block px-4 py-2 bg-red-600 text-white font-semibold rounded hover:bg-red-700 transition">
+    <section>
+      <h2 class="text-2xl font-semibold mb-4">Trama</h2>
+      <p>In un remoto villaggio montano, un ex-macello riapre sotto nuova gestione, promettendo occupazione e benessere. Ma ciò che si cela dietro i suoi cancelli va oltre l’orrore tangibile: è un viaggio nei recessi più oscuri dell’animo umano. Giuseppe Cuomo intreccia simbolismi sociali e pulsioni ancestrali in un racconto inquietante e carico di denuncia.</p>
+      <p>Temi trattati: sfruttamento lavorativo, disumanizzazione, malattia mentale, alienazione sociale.</p>
+      <p>Genere: Horror psicologico, narrativa sociale</p>
+    </section>
+
+    <section>
+      <h2 class="text-xl font-semibold mb-2 mt-8">Acquista l'eBook completo</h2>
+      <p class="mb-4">Versa 2,99€ tramite PayPal. Dopo il pagamento verrai reindirizzato alla pagina di download.</p>
+      <a href="https://paypal.me/Cuomo533/2.99" target="_blank" class="inline-block bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-4 rounded">
         Acquista ora con PayPal
       </a>
-    </div>
+    </section>
 
-    <a href="index.html" class="block text-blue-600 underline mt-8">← Torna alla Home</a>
+    <section id="recensioni" class="mt-12 bg-white p-6 rounded-lg shadow">
+      <h2 class="text-2xl font-semibold mb-4">Lascia la tua recensione</h2>
+      <form action="https://formspree.io/f/xblyobpo" method="POST" class="space-y-4">
+        <label class="block">
+          <span class="text-gray-700">Nome e Cognome</span>
+          <input type="text" name="nome" required class="mt-1 block w-full border border-gray-300 rounded p-2">
+        </label>
+        <label class="block">
+          <span class="text-gray-700">Email</span>
+          <input type="email" name="email" required class="mt-1 block w-full border border-gray-300 rounded p-2">
+        </label>
+        <label class="block">
+          <span class="text-gray-700">Recensione</span>
+          <textarea name="recensione" rows="4" required class="mt-1 block w-full border border-gray-300 rounded p-2"></textarea>
+        </label>
+        <button type="submit" class="bg-indigo-600 text-white font-semibold px-4 py-2 rounded hover:bg-indigo-700">
+          Invia recensione
+        </button>
+      </form>
+    </section>
+
+    <div class="text-center mt-6">
+      <a href="index.html" class="text-blue-600 underline">← Torna alla Home</a>
+    </div>
   </main>
 </body>
 </html>
+
 
 
