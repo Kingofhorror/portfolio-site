@@ -54,10 +54,32 @@
       </form>
     </section>
 
+    <section class="mt-12">
+      <h2 class="text-2xl font-semibold mb-4">Recensioni dei lettori</h2>
+      <div id="recensioniContainer" class="space-y-4"></div>
+    </section>
+
     <div class="text-center mt-6">
       <a href="index.html" class="text-blue-600 underline">← Torna alla Home</a>
     </div>
   </main>
+
+  <script>
+    fetch("https://api.sheetbest.com/sheets/7f9c9736-f8e0-4584-8da8-adf8fb759572")
+      .then(response => response.json())
+      .then(data => {
+        const container = document.getElementById("recensioniContainer");
+        data.forEach(entry => {
+          const div = document.createElement("div");
+          div.classList = "border-l-4 border-red-500 pl-4 italic bg-white shadow p-4 rounded";
+          div.innerHTML = `
+            <p class="mb-2">"${entry.recensione}"</p>
+            <p class="text-sm text-gray-600">– ${entry.nome}</p>
+          `;
+          container.appendChild(div);
+        });
+      });
+  </script>
 </body>
 </html>
 
