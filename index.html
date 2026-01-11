@@ -7,56 +7,75 @@
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet">
   <style>
     body {
-      background-image: url('https://images.unsplash.com/photo-1611721712163-7fc2c5b3db37?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80');
+      background-image: url('https://images.unsplash.com/photo-1605727216801-3dd2e4c66b47?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80');
       background-size: cover;
       background-position: center;
       background-attachment: fixed;
       font-family: 'Open Sans', sans-serif;
+      color: #f3f4f6;
+    }
+
+    /* Effetto overlay e tonalità dark blu */
+    .overlay {
+      background: linear-gradient(180deg, rgba(0,0,0,0.85) 0%, rgba(15,23,42,0.95) 100%);
+      backdrop-filter: blur(8px);
+      min-height: 100vh;
+    }
+
+    /* Glow titles */
+    h1, h2 {
+      text-shadow: 0 0 10px rgba(99,102,241,0.6);
+    }
+
+    a:hover h3 {
+      color: #a5b4fc;
+      transform: translateY(-2px);
+      transition: all 0.2s ease-in-out;
     }
   </style>
 </head>
-<body class="text-gray-100">
-  <div class="bg-black/70 min-h-screen backdrop-blur-sm">
-    <header class="p-8 text-center bg-black/80">
-      <h1 class="text-4xl font-bold mb-2">Giuseppe Cuomo</h1>
-      <p class="text-lg italic">Autore · Ricercatore · Divulgatore</p>
+<body>
+  <div class="overlay">
+    <header class="p-8 text-center bg-black/70 shadow-lg border-b border-indigo-500/40">
+      <h1 class="text-4xl font-bold mb-2 text-indigo-300">Giuseppe Cuomo</h1>
+      <p class="text-lg italic text-gray-300">Autore · Ricercatore · Divulgatore</p>
     </header>
 
-    <main class="p-8 max-w-4xl mx-auto">
-      <section class="mb-12">
-        <h2 class="text-2xl font-semibold mb-4">Chi sono</h2>
-        <p class="text-gray-200 text-lg">
+    <main class="p-8 max-w-4xl mx-auto space-y-12">
+      <section>
+        <h2 class="text-2xl font-semibold mb-4 text-indigo-200">Chi sono</h2>
+        <p class="text-gray-200 text-lg leading-relaxed">
           Giuseppe Cuomo è un chimico industriale con una solida esperienza nella ricerca, nell’insegnamento e nel controllo qualità...
         </p>
-        <p class="text-gray-200 text-lg mt-4">
+        <p class="text-gray-200 text-lg mt-4 leading-relaxed">
           La sua passione per la scienza si unisce a un forte interesse per la divulgazione e la narrativa...
         </p>
       </section>
 
-      <section class="mb-12">
-        <h2 class="text-2xl font-semibold mb-4">Perché questo sito</h2>
-        <p class="text-gray-200 text-lg">
+      <section>
+        <h2 class="text-2xl font-semibold mb-4 text-indigo-200">Perché questo sito</h2>
+        <p class="text-gray-200 text-lg leading-relaxed">
           Questo sito nasce dall’esigenza di promuovere in modo indipendente e senza alcuno scopo di lucro le mie opere...
         </p>
       </section>
 
-      <section class="mb-12">
-        <h2 class="text-2xl font-semibold mb-4">Romanzi</h2>
+      <section>
+        <h2 class="text-2xl font-semibold mb-4 text-indigo-200">Romanzi</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <a href="macello.html" class="block p-6 bg-gray-800 rounded-2xl shadow hover:shadow-lg transition">
+          <a href="macello.html" class="block p-6 bg-slate-800/80 hover:bg-slate-700/90 rounded-2xl shadow-lg border border-slate-700 transition transform hover:scale-[1.02]">
             <h3 class="text-xl font-bold mb-2 text-white">Il Macello Maledetto</h3>
             <p class="text-gray-300">Romanzo horror psicologico e sociale ambientato in un villaggio remoto.</p>
           </a>
-          <a href="consonno.html" class="block p-6 bg-gray-800 rounded-2xl shadow hover:shadow-lg transition">
+          <a href="consonno.html" class="block p-6 bg-slate-800/80 hover:bg-slate-700/90 rounded-2xl shadow-lg border border-slate-700 transition transform hover:scale-[1.02]">
             <h3 class="text-xl font-bold mb-2 text-white">Consonno la città dell'incubo</h3>
             <p class="text-gray-300">Un viaggio nel tempo e nella memoria in una città fantasma piena di misteri.</p>
           </a>
         </div>
       </section>
 
-      <section class="mb-12">
-        <h2 class="text-2xl font-semibold mb-4">Pubblicazioni scientifiche</h2>
-        <a href="pubblicazioni.html" class="inline-block mt-2 px-6 py-3 bg-blue-600 text-white font-semibold rounded-xl hover:bg-blue-700 transition">
+      <section>
+        <h2 class="text-2xl font-semibold mb-4 text-indigo-200">Pubblicazioni scientifiche</h2>
+        <a href="pubblicazioni.html" class="inline-block mt-2 px-6 py-3 bg-indigo-600 text-white font-semibold rounded-xl hover:bg-indigo-700 shadow-lg transition">
           Vai alla sezione
         </a>
       </section>
@@ -64,6 +83,5 @@
   </div>
 </body>
 </html>
-
 
 
